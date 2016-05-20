@@ -1,0 +1,17 @@
+<center>
+
+<h1>Waves</h1>
+<h3>ALL USERS</h3>
+
+<ul>
+  <% @users.each do |user| %>
+    <%= user.name %>
+      <br>
+      <img src="<%= user.picture_url %>" style="width: 100px; height: 100px"/>
+      <br>
+      <%= user.email %>
+      <br>
+      Id: <%= user.id %>
+      <hr>
+  <% end %>
+</ul>
