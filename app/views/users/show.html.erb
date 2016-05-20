@@ -1,4 +1,5 @@
 <h1> <%= @user.name %> </h1>
-
+<!-- this is where User profile will be keep -->
 <img src="<%= @user.picture_url %>" style="width: 100px; height: 100px"/>
-<%= link_to "Back to the list!", users_path %>
+<br>
+<%= link_to "Back to the list!", users_path %> <%= link_to "Delete", user_path, method: :delete, data: { confirm: "Are you sure?"} %>
