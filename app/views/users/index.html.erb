@@ -5,6 +5,7 @@
 
 <ul>
   <% @users.each do |user| %>
+
     <%= user.name %>
       <br>
       <img src="<%= user.picture_url %>" style="width: 100px; height: 100px"/>
@@ -13,6 +14,8 @@
       <br>
       Id: <%= user.id %>
       <br>
+      <%= link_to "More info", user_path(user) %>
+
       <hr>
   <% end %>
 </ul>

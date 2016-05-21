@@ -3,3 +3,4 @@
 <img src="<%= @user.picture_url %>" style="width: 100px; height: 100px"/>
 <br>
 <%= link_to "Back to the list!", users_path %> <%= link_to "Delete", user_path, method: :delete, data: { confirm: "Are you sure?"} %>
+<%= link_to "Edit me", edit_user_path(@user) %>
