@@ -1,0 +1,96 @@
+// Place all the styles related to the musics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-box{
+  margin: 40px;
+  padding: 10px;
+  border: 5px solid black;
+  width: 90%;
+  height: 90%;
+  box-shadow: 30px 30px 15px grey;
+  background-color: #C3C7CF;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+}
+.index-add-new-song-btn{
+  background-color: #D66F65;
+  margin: 20px;
+  border: 5px solid black;
+  width: 10%;
+  height: 5%;
+  text-align: center;
+  box-shadow: 30px 30px 15px grey;
+}
+
+.music-title-box{
+  border: 5px solid black;
+  width: 20%;
+  height: 5%;
+  box-shadow: 30px 30px 15px grey;
+  text-align: center;
+  background-color: #7FB0C7;
+}
+.add-title{
+  margin: 20px;
+   border: 5px solid black;
+   width: 70%;
+  height: 5%;
+  box-shadow: 30px 30px 15px grey;
+  text-align: center;
+}
+
+.input-new-song{
+  margin: 50px;
+  padding: 8px;
+  border: 2px solid black;
+  width: 40%;
+  height: 10%;
+  box-shadow: 30px 30px 15px grey;
+  text-align: center;
+}
+.input-btn{
+  margin: 50px;
+  padding: 8px;
+  border: 2px solid black;
+  width: 5%;
+  height: 10%;
+  box-shadow: 30px 30px 15px grey;
+  text-align: center;
+}
+
+
+.music-post{
+  margin: 45px;
+  border: 2px solid black;
+  width: 85%;
+  height: 50%;
+  box-shadow: 30px 30px 15px grey;
+  text-align: center;
+  background-color: #C1B55E;
+}
+
+.video{
+  box-shadow: 30px 30px 15px grey;
+}
+
+.add-new-song-box{
+  margin: 70px;
+  border: 2px solid black;
+  width: 50%;
+  min-height: 80%;
+  box-shadow: 30px 30px 15px grey;
+
+}
+#index-delete-btn{
+  margin: 10px;
+  float: right;
+  border: 1px solid #D66F65;
+  box-shadow: 5px 5px 15px grey;
+  background-color: #D66F65;
+}
+

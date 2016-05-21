@@ -1,0 +1,47 @@
+<center>
+    <div class="add-new-song-box">
+        <div class="add-title">
+            <h1>Add new song!</h1>
+        </div>
+        <%= form_for @music do |f| %>
+            <div class="input-new-song">
+                <%= f.label :artist %>
+                <br>
+                <%= f.text_field :artist %>
+            </div>
+
+            <div class="input-new-song">
+                <%= f.label :song %>
+                <br>
+                <%= f.text_field :songs %>
+            </div>
+
+            <div class="input-new-song">
+                <%= f.label :genre %>
+                <br>
+                <%= f.text_field :genre %>
+            </div>
+
+            <div class="input-new-song">
+                <%= f.label :bio %>
+                <br>
+                <%= f.text_area :bio %>
+            </div>
+
+            <div class="input-new-song">
+                <%= f.label :song_url %>
+                <br>
+                <%= f.url_field :song_url %>
+            </div>
+
+            <div class="input-btn">
+                <%= f.submit "+" %>
+            </div>
+        <% end %>
+        <br>
+        <%= link_to "Back", musics_path %>
+    </div>
+</center>
+
+
+
