@@ -1,6 +1,17 @@
-<h1> <%= @user.name %> </h1>
-<!-- this is where User profile will be keep -->
+<div style=" height:358px; width: 100%; background-image: url(https://upload.wikimedia.org/wikipedia/en/7/7c/Waves_on_Straddie_beach.jpg);">
+  <div>
+    <h1> <%= @user.name %> </h1>
+  </div>
+
+
 <img src="<%= @user.picture_url %>" style="width: 100px; height: 100px"/>
+</div>
+<!-- this is where User profile will be keep -->
 <br>
+
+
+
+
+
 <%= link_to "Back to the list!", users_path %> <%= link_to "Delete", user_path, method: :delete, data: { confirm: "Are you sure?"} %>
 <%= link_to "Edit me", edit_user_path(@user) %>
